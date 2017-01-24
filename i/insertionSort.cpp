@@ -1,13 +1,16 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+
 void show(vector<int> vet){
     for(int i=0;i<vet.size();i++){
         cout << vet[i] << " ";
     }
     cout << endl;
 }
+
 void insertionSort(vector<int> &vet){
+
     int i;
     for(int j=1;j<vet.size();j++){
         int chave = vet[j];
